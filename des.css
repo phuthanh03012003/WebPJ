@@ -353,10 +353,11 @@ article .icon{
   background: rgb(250,250,250);
 }
 
-.project-img{
+.project-img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
 }
 
 .project-title{
